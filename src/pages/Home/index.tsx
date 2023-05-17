@@ -1,6 +1,10 @@
+import InputNumber from '@/components/InputNumber';
+
 const Home = () => {
   return (
-    <div>milan</div>
+    <div>
+      <InputNumber />
+    </div>
   );
 };
 
