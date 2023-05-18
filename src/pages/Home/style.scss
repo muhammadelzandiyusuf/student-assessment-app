@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -47,7 +50,7 @@
     }
   }
   .form-button {
-    padding: 60px 0 120px;
+    padding: 60px 0 60px;
     text-align: right;
     button {
       background: #000000;
@@ -64,6 +67,13 @@
         background: #680000;
         cursor: pointer;
       }
+    }
+  }
+  .output {
+    position: relative;
+    padding: 60px 0;
+    &-scroll {
+      position: relative;
     }
   }
   @media only screen and (max-width: 768px) {
