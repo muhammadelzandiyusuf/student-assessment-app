@@ -57,22 +57,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_1'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_1'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_1'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_1'
       },
     ],
@@ -82,22 +78,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_2'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_2'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_2'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_2'
       },
     ],
@@ -107,22 +99,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_3'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_3'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_3'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_3'
       },
     ],
@@ -132,22 +120,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_4'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_4'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_4'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_4'
       },
     ],
@@ -157,22 +141,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_5'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_5'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_5'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_5'
       },
     ],
@@ -182,22 +162,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_6'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_6'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_6'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_6'
       },
     ],
@@ -207,22 +183,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_7'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_7'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_7'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_7'
       },
     ],
@@ -232,22 +204,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_8'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_8'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_8'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_8'
       },
     ],
@@ -257,22 +225,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_9'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_9'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_9'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_9'
       },
     ],
@@ -282,22 +246,18 @@ export const studentAssessmentForm: StudentAssessmentFormProps[] = [
     register: [
       {
         label: 'Aspek Penilaian 1',
-        isLabel: true,
         name: 'aspek_penilaian_1.mahasiswa_10'
       },
       {
         label: 'Aspek Penilaian 2',
-        isLabel: true,
         name: 'aspek_penilaian_2.mahasiswa_10'
       },
       {
         label: 'Aspek Penilaian 3',
-        isLabel: true,
         name: 'aspek_penilaian_3.mahasiswa_10'
       },
       {
         label: 'Aspek Penilaian 4',
-        isLabel: true,
         name: 'aspek_penilaian_4.mahasiswa_10'
       },
     ],
