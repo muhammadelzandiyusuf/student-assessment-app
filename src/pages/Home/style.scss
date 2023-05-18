@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  &-wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  &-title {
+    padding: 60px 0;
+    text-align: center;
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      line-height: 48px;
+    }
+  }
+  .card {
+    position: relative;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    &-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 56px;
+      flex-direction: row;
+      padding: 12px;
+    }
+    &-name {
+      width: 25%;
+      display: flex;
+      flex-direction: row;
+      column-gap: 16px;
+      align-items: center;
+    }
+    &-form {
+      width: 100%;
+      display: grid;
+      gap: 24px;
+      grid-template-columns: auto auto auto auto;
+      &-input {
+        position: relative;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    &-title {
+      h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+}
