@@ -66,5 +66,5 @@ export type RegisterNameProps = 'aspek_penilaian_1.mahasiswa_1' | 'aspek_penilai
 
 export type StudentAssessmentFormProps = {
   name: string;
-  register: Array<{ label?: string, name: RegisterNameProps }>;
+  register: Array<{ label?: string, isLabel: boolean, name: RegisterNameProps }>;
 };

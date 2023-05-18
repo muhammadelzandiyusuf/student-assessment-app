@@ -42,7 +42,7 @@ const Home = () => {
                 <div className='card-form'>
                   {item.register.map((reg, number) => (
                     <div className='card-form-input' key={number}>
-                      <InputNumber {...register(reg.name)} label={reg.label} name={reg.name} />
+                      <InputNumber {...register(reg.name)} label={reg.label} name={reg.name} keyLabel={index} />
                     </div>
                   ))}
                 </div>

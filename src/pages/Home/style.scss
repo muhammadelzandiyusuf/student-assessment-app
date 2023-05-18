@@ -76,12 +76,40 @@ html {
       position: relative;
     }
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 867px) {
     &-title {
+      padding: 36px 0 48px;
       h1 {
         font-size: 24px;
         line-height: 36px;
       }
+    }
+    .card {
+      &-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 12px;
+      }
+      &-name {
+        justify-content: flex-start;
+      }
+    }
+    .form-button {
+      padding: 24px 0;
+      button {
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 665px) {
+    .card {
+      &-form {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+    .output {
+      padding: 0;
     }
   }
 }

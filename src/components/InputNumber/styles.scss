@@ -4,6 +4,15 @@
   flex-direction: column;
   align-items: center;
   row-gap: 4px;
+  &-desktop {
+    width: 100%;
+    display: block;
+    visibility: visible;
+  }
+  &-mobile {
+    display: none;
+    visibility: hidden;
+  }
   label {
     position: absolute;
     top: -100%;
@@ -15,5 +24,24 @@
     letter-spacing: 0.00938em;
     margin: 0;
     padding: 8px;
+  }
+  @media only screen and (max-width: 867px) {
+    label {
+      position: relative;
+      top: 0;
+    }
+    &-desktop {
+      display: none;
+      visibility: hidden;
+    }
+    &-mobile {
+      width: 100%;
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  @media only screen and (max-width: 665px) {
+    align-items: flex-start;
   }
 }
