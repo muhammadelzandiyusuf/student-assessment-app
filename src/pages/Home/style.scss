@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  &-wrapper {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  &-title {
+    padding: 60px 0 90px 0;
+    text-align: center;
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      line-height: 48px;
+    }
+  }
+  .card {
+    position: relative;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    &-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 56px;
+      flex-direction: row;
+      padding: 12px;
+    }
+    &-name {
+      width: 25%;
+      display: flex;
+      flex-direction: row;
+      column-gap: 16px;
+      align-items: center;
+    }
+    &-form {
+      width: 100%;
+      display: grid;
+      gap: 24px;
+      grid-template-columns: auto auto auto auto;
+      &-input {
+        position: relative;
+      }
+    }
+  }
+  .form-button {
+    padding: 60px 0 60px;
+    text-align: right;
+    button {
+      background: #000000;
+      color: #FFFFFF;
+      padding: 12px;
+      width: 150px;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    @media (hover: hover) {
+      button:hover {
+        background: #680000;
+        cursor: pointer;
+      }
+    }
+  }
+  .output {
+    position: relative;
+    padding: 60px 0;
+    &-scroll {
+      position: relative;
+    }
+  }
+  @media only screen and (max-width: 867px) {
+    &-title {
+      padding: 36px 0 48px;
+      h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    .card {
+      &-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 12px;
+      }
+      &-name {
+        justify-content: flex-start;
+      }
+    }
+    .form-button {
+      padding: 24px 0;
+      button {
+        width: 100%;
+      }
+    }
+  }
+  @media only screen and (max-width: 665px) {
+    .card {
+      &-form {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+    }
+    .output {
+      padding: 0;
+    }
+  }
+}
