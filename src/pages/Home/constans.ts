@@ -1,6 +1,6 @@
-import { FormValueProps } from '@/pages/Home/types';
+import { StudentAssessmentFormProps } from '@/pages/Home/types';
 
-export const FormDefaultValue: FormValueProps = {
+export const FormDefaultValue = {
   aspek_penilaian_1: {
     mahasiswa_1: '1',
     mahasiswa_2: '1',
@@ -50,3 +50,180 @@ export const FormDefaultValue: FormValueProps = {
     mahasiswa_10: '1',
   },
 }
+
+export const studentAssessmentForm: StudentAssessmentFormProps[] = [
+  {
+    name: 'Mahasiswa 1',
+    register: [
+      {
+        label: 'Aspek Penilaian 1',
+        name: 'aspek_penilaian_1.mahasiswa_1'
+      },
+      {
+        label: 'Aspek Penilaian 2',
+        name: 'aspek_penilaian_2.mahasiswa_1'
+      },
+      {
+        label: 'Aspek Penilaian 3',
+        name: 'aspek_penilaian_3.mahasiswa_1'
+      },
+      {
+        label: 'Aspek Penilaian 4',
+        name: 'aspek_penilaian_4.mahasiswa_1'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 2',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_2'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_2'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_2'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_2'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 3',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_3'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_3'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_3'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_3'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 4',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_4'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_4'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_4'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_4'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 5',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_5'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_5'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_5'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_5'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 6',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_6'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_6'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_6'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_6'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 7',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_7'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_7'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_7'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_7'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 8',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_8'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_8'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_8'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_8'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 9',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_9'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_9'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_9'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_9'
+      },
+    ],
+  },
+  {
+    name: 'Mahasiswa 10',
+    register: [
+      {
+        name: 'aspek_penilaian_1.mahasiswa_10'
+      },
+      {
+        name: 'aspek_penilaian_2.mahasiswa_10'
+      },
+      {
+        name: 'aspek_penilaian_3.mahasiswa_10'
+      },
+      {
+        name: 'aspek_penilaian_4.mahasiswa_10'
+      },
+    ],
+  },
+];

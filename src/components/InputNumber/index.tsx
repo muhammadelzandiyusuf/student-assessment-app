@@ -3,10 +3,12 @@ import { forwardRef, InputHTMLAttributes, ChangeEventHandler, useCallback } from
 import './styles.scss';
 
 export type BaseInputRefAttr = HTMLInputElement;
-export type BaseInputProps = InputHTMLAttributes<HTMLInputElement>;
+export type BaseInputProps = InputHTMLAttributes<HTMLInputElement> & {
+  label?: string;
+};
 
 const InputNumber = forwardRef<BaseInputRefAttr, BaseInputProps>(
-  ({ name, onChange, ...props }, ref) => {
+  ({ label, id, name, onChange, ...props }, ref) => {
     const handleChange: ChangeEventHandler<HTMLInputElement> = useCallback(
       (e) => {
         e.target.value = e.target.value.startsWith('0') ? '' : e.target.value;
@@ -25,6 +27,9 @@ const InputNumber = forwardRef<BaseInputRefAttr, BaseInputProps>(
 
     return (
       <div className='input'>
+        {label && (
+          <label id={id} htmlFor={id}>{label}</label>
+        )}
         <input
           {...props}
           type='number'

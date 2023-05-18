@@ -5,7 +5,7 @@ import { FaUserCircle } from 'react-icons/fa';
 import InputNumber from '@/components/InputNumber';
 
 import { FormValueProps } from './types';
-import { FormDefaultValue } from './constans';
+import { FormDefaultValue, studentAssessmentForm } from './constans';
 import './style.scss';
 
 const Home = () => {
@@ -26,27 +26,25 @@ const Home = () => {
           <h1>Aplikasi Penilaian Mahasiswa</h1>
         </div>
         <form onSubmit={handleSubmit(onSubmit)}>
-          <div className='card'>
-            <div className='card-wrapper'>
-              <div className='card-name'>
-                <FaUserCircle size={28} color='#aeb4b7' />
-                <label>Mahasiswa 1</label>
-              </div>
-              <div className='card-form'>
-                <div className='card-form-input'>
-                  <InputNumber />
+          {studentAssessmentForm.map((item, index) => (
+            <div className='card' key={index}>
+              <div className='card-wrapper'>
+                <div className='card-name'>
+                  <FaUserCircle size={28} color='#aeb4b7' />
+                  <label>{item.name}</label>
                 </div>
-                <div className='card-form-input'>
-                  <InputNumber />
-                </div>
-                <div className='card-form-input'>
-                  <InputNumber />
-                </div>
-                <div className='card-form-input'>
-                  <InputNumber />
+                <div className='card-form'>
+                  {item.register.map((reg, number) => (
+                    <div className='card-form-input' key={number}>
+                      <InputNumber {...register(reg.name)} label={reg.label} />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
+          ))}
+          <div className='form-button'>
+            <button type='submit'>Simpan</button>
           </div>
         </form>
       </div>

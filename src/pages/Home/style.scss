@@ -8,7 +8,7 @@
     padding-right: 20px;
   }
   &-title {
-    padding: 60px 0;
+    padding: 60px 0 90px 0;
     text-align: center;
     h1 {
       font-size: 36px;
@@ -20,6 +20,7 @@
     position: relative;
     border: 1px solid #dddddd;
     border-radius: 4px;
+    margin-bottom: 24px;
     &-wrapper {
       display: flex;
       justify-content: flex-start;
@@ -42,6 +43,26 @@
       grid-template-columns: auto auto auto auto;
       &-input {
         position: relative;
+      }
+    }
+  }
+  .form-button {
+    padding: 60px 0 120px;
+    text-align: right;
+    button {
+      background: #000000;
+      color: #FFFFFF;
+      padding: 12px;
+      width: 150px;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+      font-weight: 700;
+    }
+    @media (hover: hover) {
+      button:hover {
+        background: #680000;
+        cursor: pointer;
       }
     }
   }
